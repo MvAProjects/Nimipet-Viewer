@@ -1,5 +1,5 @@
 function searchPet(name) {
-    fetch('http://nimipetdev.com/api/v1/pet/' + name, {
+    fetch('https://nimipetdev.com/api/v1/pet/' + name, {
             // mode: "no-cors"
         })
         .then(function(response) {
