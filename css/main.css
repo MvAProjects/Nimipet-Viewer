@@ -15,6 +15,11 @@ hr {
     border-color: #333333;
 }
 
+img {
+    width: 50%;
+    height: 50%;
+}
+
 input {
     background-color: #333333;
     color: #ffffff;
@@ -39,27 +44,6 @@ button {
     border-style: none;
 }
 
-#color1 {
-    font-size: 15px;
-    color: #333333;
-    font-weight: bolder;
-    background-color: #FFFFFF;
-}
-
-#color2 {
-    font-size: 15px;
-    color: #333333;
-    font-weight: bolder;
-    background-color: #FFFFFF;
-}
-
-#color3 {
-    font-size: 15px;
-    color: #333333;
-    font-weight: bolder;
-    background-color: #FFFFFF;
-}
-
 .fonts {
     font-family: 'Mali', cursive;
     font-family: 'Roboto', sans-serif;
@@ -78,11 +62,11 @@ button {
 }
 
 .content {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
     border-style: solid;
     border-color: #333333;
     border-radius: 25px;
